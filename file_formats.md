@@ -11,7 +11,7 @@ struct deadbeef_object {
     uint32_t magic; // == 0xd34db33f
     uint32_t unknown_0; // version ??
     uint32_t length; // total length, including prev fields
-    char data[length - 18];
+    char data[length - 12];
 };
 ```
 
